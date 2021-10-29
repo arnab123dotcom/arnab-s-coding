@@ -4,7 +4,7 @@ int main()
 {
     int test;
     scanf("%d",&test);
-    while(test-->0){
+    while(test>0){
     int n,k;
     scanf("%d %d",&n,&k);
     int arr[n];
@@ -14,6 +14,7 @@ int main()
     printf("%d ",arr[i]);
     for(int i=0;i<n-k;i++)
     printf("%d ",arr[i]);
+    test--;
     }
     return 0;
 }
